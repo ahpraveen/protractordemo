@@ -8,7 +8,7 @@ exports.config = {
         filePrefix: 'xmloutput'
   }))},
   seleniumAddress: 'http://localhost:4444/wd/hub',
-  specs: ['spec.js'],
+  specs: ['../tests/spec.js'],
   multiCapabilities:[{
 	  browserName: 'firefox'
   },{browserName: 'chrome'}]
