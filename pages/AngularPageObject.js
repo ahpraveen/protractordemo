@@ -1,5 +1,4 @@
 var AngularPageObject = function(){
-
 var inputName = element(by.model('yourName'));
 var bindingName = element(by.binding('yourName'));
 
