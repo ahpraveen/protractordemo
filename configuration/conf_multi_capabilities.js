@@ -1,3 +1,5 @@
+// config file for multicapabilities
+
 exports.config = {
   framework: 'jasmine2',
   onPrepare: function() {
